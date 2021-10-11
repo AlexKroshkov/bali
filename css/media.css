@@ -1,0 +1,153 @@
+@media (max-width: 1920px) {
+  .header-top {
+    margin-bottom: 40px;
+  }
+  .header__content-title {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu__list li + li {
+    padding-left: 50px;
+  }
+
+  .title {
+    font-size: 75px;
+    line-height: 112px;
+  }
+
+  .header__content-title {
+    margin-bottom: 75px;
+  }
+
+  .header__content-btn {
+    padding: 40px 70px;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu__list {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 180px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+  }
+
+  .menu__list li + li {
+    padding-left: 0;
+  }
+
+  .menu__link {
+    display: block;
+    padding: 90px 0;
+    font-size: 56px;
+    font-weight: 700;
+  }
+
+  .menu__btn {
+    display: flex;
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 60px;
+    line-height: 90px;
+  }
+
+  .header__content-btn {
+    margin-bottom: 50px;
+  }
+
+  .header__content-icons {
+    position: static;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 45px;
+    line-height: 75px;
+  }
+}
+
+@media (max-width: 414px) {
+  .header-top {
+    height: 130px;
+    margin-bottom: 5px;
+  }
+
+  .header__logo {
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .header__content-title {
+    font-size: 35px;
+    line-height: 60px;
+  }
+
+  .header__content-btn {
+    padding: 10px 20px;
+    margin-bottom: 25px;
+  }
+
+  .mouse {
+    padding: 3px 7px;
+    height: 30px;
+  }
+
+  .header__content-icons {
+    margin-bottom: 25px;
+  }
+
+  .menu__list {
+    top: 120px;
+  }
+
+  .menu__link {
+    padding: 50px 0;
+    font-size: 36px;
+  }
+} 
+
+@media (max-width: 375px) {
+  .header__content-title {
+    margin-bottom: 50px;
+  }
+
+  .menu__link {
+    padding: 40px 0;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__content-title {
+    margin-bottom: 35px;
+    font-size: 29px;
+    line-height: 45px;
+  }
+
+  .menu__link {
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+@media (min-width: 901px) {
+  .menu__list {
+    display: flex !important;
+  }
+}
